@@ -1,0 +1,46 @@
+1-5)
+ls -l
+cd SI_2024_lab1_183241
+git init - Креирање на нов Git репозиториум
+git config --global user.name "Ibrahim Mujovikj" - Поставување на корисничко име за Git
+git config --global user.email ibrahim.mujovik@students.finki.ukim.mk Поставување на емаил за Git
+git remote add origin https://github.com/ibrahimmujovic/SI_2024_lab1_183241.git
+git remote -v
+6) nano README.md - Уредување на датотеката README.md со уредникот nano.
+git add . -  Додавање на сите промени во индексот за следен комит
+git commit -m "Initial commit" - Комитување на промените со поракта "Initial commit"
+git remote add origin https://github.com/ibrahimmujovic/SI_2024_lab1_183241.git
+git branch -M master
+git push -u origin master
+7) git add . - Додавање на сите промени во индексот за следен комит
+git commit -m "Starter code" - Комитување на промените со порака "Starter code"
+git push -u origin master - Пренесување на комитите на главната гранка на сервер
+8) git pull --all - Преземање на сите изменувања од сите гранки од серверот
+9) git checkout -b bug1 - Креирање и префрлање на нова гранка bug1
+git checkout -b bug2 - Креирање и префрлање на нова гранка bug2
+10) git checkout bug1 - префрлање на гранка bug1
+11) git add SILab1_1.java -  Додавање на датотеката SILab1_1.java
+git commit -m "Fix wrong condition in filterOddLengthStrings" - Комитување на промените со соодветна порака
+12) git checkout bug2 -Префрлање на гранката bug1
+13) git add SILab1_2.java - Додавање на датотеката SILab1_2.java
+git commit -m "Fix wrong condition in makeBigStringFrom" - Комитување на промените со соодветна порака
+14) git checkout bug1 - префрлање на гранката bug1
+15) git add SILab1Main.java - Додавање на датотеката SILab1Main.java
+git commit -m "Call method filterOddLengthStrings in main class"
+16) git checkout bug2
+17) git add SILab1Main.java
+git commit -m "Call method makeBigStringFrom in main class" - Комитување на промените со соодветна порака
+18) git pull - Преземање на најновите изменувања од серверот во тековната гранкa
+19) git checkout master
+20) git merge bug1 - не се сличиа конфликти, беше употребено fast-forward
+21) git pull
+22) git checkout bug2
+23) git rebase master - Пренесување на комитите од гранката bug2 врз главната гранка master (откако се јави конфликт беше разрешен така што ги оставив двата повика за печатење во SILab1Main.java и беше употребено recursive merge)
+24) git checkout master
+25) git merge bug2 - не се сличиа конфликти, беше употребено fast-forward
+26) git pull
+27) git pull origin master
+git pull origin bug2 --force
+git pull origin bug1
+Преземање на изменувања од специфични гранки на серверот
+28) git log - Прикажување на логот на комитит

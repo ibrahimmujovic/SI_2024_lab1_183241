@@ -1,0 +1,23 @@
+commit 5a98b68bc8322e94a68fa64176df3e72bbb2d7af (HEAD -> bug1, origin/bug1)
+Author: Ibrahim Mujovikj <ibrahim.mujovik@students.finki.ukim.mk>
+Date:   Sat Apr 13 08:20:19 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 5efe349447c3237abc96b0092d94b49eea76e392
+Author: Ibrahim Mujovikj <ibrahim.mujovik@students.finki.ukim.mk>
+Date:   Sat Apr 13 07:59:44 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 3352b7a1b765565426507757b75243889296ce8d
+Author: Ibrahim Mujovikj <ibrahim.mujovik@students.finki.ukim.mk>
+Date:   Sat Apr 13 07:39:55 2024 +0200
+
+    Add starter code
+
+commit d23ca3ecf21b94283620e98be66cb03c32b99a6c
+Author: Ibrahim Mujovikj <ibrahim.mujovik@students.finki.ukim.mk>
+Date:   Sat Apr 13 07:26:12 2024 +0200
+
+    Initial commit
